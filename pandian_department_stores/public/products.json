@@ -1,0 +1,425 @@
+[
+  {
+    "id": "dairy-1",
+    "name": "Aavin Milk",
+    "category": "Dairy Products",
+    "unit": "500 ml",
+    "mrp": 30,
+    "price": 30,
+    "loyalty": false
+  },
+  {
+    "id": "dairy-2",
+    "name": "Amul Pure Cow Ghee",
+    "category": "Dairy Products",
+    "unit": "500 ml",
+    "mrp": 340,
+    "price": 315,
+    "loyalty": false
+  },
+  {
+    "id": "dairy-3",
+    "name": "Amul Butter",
+    "category": "Dairy Products",
+    "unit": "100 g",
+    "mrp": 62,
+    "price": 58,
+    "loyalty": false
+  },
+  {
+    "id": "dairy-4",
+    "name": "Milky Mist Fresh Paneer",
+    "category": "Dairy Products",
+    "unit": "200 g",
+    "mrp": 110,
+    "price": 105,
+    "loyalty": false
+  },
+  {
+    "id": "dairy-5",
+    "name": "Set Curd",
+    "category": "Dairy Products",
+    "unit": "500 g",
+    "mrp": 45,
+    "price": 42,
+    "loyalty": false
+  },
+  {
+    "id": "dairy-6",
+    "name": "Amul Cheese Slices",
+    "category": "Dairy Products",
+    "unit": "200 g",
+    "mrp": 150,
+    "price": 142,
+    "loyalty": false
+  },
+  {
+    "id": "masala-1",
+    "name": "Aachi Kulambu Chilli Powder",
+    "category": "Masalas & Spices",
+    "unit": "100 g",
+    "mrp": 45,
+    "price": 40,
+    "loyalty": true
+  },
+  {
+    "id": "masala-2",
+    "name": "Aachi Sambar Masala",
+    "category": "Masalas & Spices",
+    "unit": "100 g",
+    "mrp": 50,
+    "price": 45,
+    "loyalty": true
+  },
+  {
+    "id": "masala-3",
+    "name": "Everest Royal Biryani Masala",
+    "category": "Masalas & Spices",
+    "unit": "50 g",
+    "mrp": 62,
+    "price": 57,
+    "loyalty": true
+  },
+  {
+    "id": "masala-4",
+    "name": "Sakthi Chicken 65 Masala",
+    "category": "Masalas & Spices",
+    "unit": "50 g",
+    "mrp": 42,
+    "price": 38,
+    "loyalty": true
+  },
+  {
+    "id": "masala-5",
+    "name": "Tata Sampann Turmeric",
+    "category": "Masalas & Spices",
+    "unit": "100 g",
+    "mrp": 48,
+    "price": 44,
+    "loyalty": true
+  },
+  {
+    "id": "masala-6",
+    "name": "MDH Garam Masala",
+    "category": "Masalas & Spices",
+    "unit": "100 g",
+    "mrp": 115,
+    "price": 105,
+    "loyalty": true
+  },
+  {
+    "id": "masala-7",
+    "name": "Whole Cumin (Jeeragam)",
+    "category": "Masalas & Spices",
+    "unit": "100 g",
+    "mrp": 85,
+    "price": 78,
+    "loyalty": true
+  },
+  {
+    "id": "bev-1",
+    "name": "Red Bull Energy Drink",
+    "category": "Cool Drinks & Beverages",
+    "unit": "250 ml",
+    "mrp": 145,
+    "price": 135,
+    "loyalty": true
+  },
+  {
+    "id": "bev-2",
+    "name": "Pepsi",
+    "category": "Cool Drinks & Beverages",
+    "unit": "750 ml",
+    "mrp": 45,
+    "price": 40,
+    "loyalty": true
+  },
+  {
+    "id": "bev-3",
+    "name": "7Up",
+    "category": "Cool Drinks & Beverages",
+    "unit": "750 ml",
+    "mrp": 45,
+    "price": 40,
+    "loyalty": true
+  },
+  {
+    "id": "bev-4",
+    "name": "Appy Fizz",
+    "category": "Cool Drinks & Beverages",
+    "unit": "600 ml",
+    "mrp": 40,
+    "price": 36,
+    "loyalty": true
+  },
+  {
+    "id": "bev-5",
+    "name": "Bovonto",
+    "category": "Cool Drinks & Beverages",
+    "unit": "750 ml",
+    "mrp": 45,
+    "price": 40,
+    "loyalty": true
+  },
+  {
+    "id": "bev-6",
+    "name": "Maaza Mango Juice",
+    "category": "Cool Drinks & Beverages",
+    "unit": "600 ml",
+    "mrp": 50,
+    "price": 45,
+    "loyalty": true
+  },
+  {
+    "id": "stat-1",
+    "name": "Classmate Long Notebooks",
+    "category": "School Stationery",
+    "unit": "1 book",
+    "mrp": 70,
+    "price": 65,
+    "loyalty": true
+  },
+  {
+    "id": "stat-2",
+    "name": "Doms Colour Pencil Kit",
+    "category": "School Stationery",
+    "unit": "1 kit",
+    "mrp": 75,
+    "price": 68,
+    "loyalty": true
+  },
+  {
+    "id": "stat-3",
+    "name": "Reynolds 045 Pens",
+    "category": "School Stationery",
+    "unit": "Pack of 5",
+    "mrp": 50,
+    "price": 45,
+    "loyalty": true
+  },
+  {
+    "id": "stat-4",
+    "name": "Nataraj Geometry Box",
+    "category": "School Stationery",
+    "unit": "1 box",
+    "mrp": 90,
+    "price": 82,
+    "loyalty": true
+  },
+  {
+    "id": "stat-5",
+    "name": "Bilt A4 Paper",
+    "category": "School Stationery",
+    "unit": "500 sheets",
+    "mrp": 330,
+    "price": 310,
+    "loyalty": true
+  },
+  {
+    "id": "stat-6",
+    "name": "Casio Desk Calculator",
+    "category": "School Stationery",
+    "unit": "1 piece",
+    "mrp": 650,
+    "price": 599,
+    "loyalty": true
+  },
+  {
+    "id": "clean-1",
+    "name": "Gala Turbo Spin Mop Set",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "1 set",
+    "mrp": 999,
+    "price": 899,
+    "loyalty": true
+  },
+  {
+    "id": "clean-2",
+    "name": "Gala No-Dust Broom",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "1 piece",
+    "mrp": 220,
+    "price": 195,
+    "loyalty": true
+  },
+  {
+    "id": "clean-3",
+    "name": "Surf Excel Matic",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "2 kg",
+    "mrp": 390,
+    "price": 365,
+    "loyalty": true
+  },
+  {
+    "id": "clean-4",
+    "name": "Harpic 10X Power Plus",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "1 L",
+    "mrp": 235,
+    "price": 215,
+    "loyalty": true
+  },
+  {
+    "id": "clean-5",
+    "name": "Vim Gel",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "500 ml",
+    "mrp": 125,
+    "price": 112,
+    "loyalty": true
+  },
+  {
+    "id": "clean-6",
+    "name": "Scotch-Brite Scrubbers",
+    "category": "Mops, Brooms & Cleaning",
+    "unit": "Pack of 3",
+    "mrp": 75,
+    "price": 68,
+    "loyalty": true
+  },
+  {
+    "id": "oral-1",
+    "name": "Colgate Strong Teeth",
+    "category": "Toothpaste & Oral Care",
+    "unit": "200 g",
+    "mrp": 125,
+    "price": 112,
+    "loyalty": true
+  },
+  {
+    "id": "oral-2",
+    "name": "Sensodyne Fresh Mint",
+    "category": "Toothpaste & Oral Care",
+    "unit": "70 g",
+    "mrp": 145,
+    "price": 135,
+    "loyalty": true
+  },
+  {
+    "id": "oral-3",
+    "name": "CloseUp Everfresh",
+    "category": "Toothpaste & Oral Care",
+    "unit": "150 g",
+    "mrp": 105,
+    "price": 95,
+    "loyalty": true
+  },
+  {
+    "id": "oral-4",
+    "name": "Dabur Red Ayurvedic",
+    "category": "Toothpaste & Oral Care",
+    "unit": "200 g",
+    "mrp": 115,
+    "price": 105,
+    "loyalty": true
+  },
+  {
+    "id": "oral-5",
+    "name": "Oral-B Soft Toothbrush Pack",
+    "category": "Toothpaste & Oral Care",
+    "unit": "Pack of 2",
+    "mrp": 120,
+    "price": 108,
+    "loyalty": true
+  },
+  {
+    "id": "oral-6",
+    "name": "Colgate ZigZag",
+    "category": "Toothpaste & Oral Care",
+    "unit": "Pack of 4",
+    "mrp": 120,
+    "price": 108,
+    "loyalty": true
+  },
+  {
+    "id": "groc-1",
+    "name": "Aashirvaad Chakki Atta",
+    "category": "Daily Groceries & Staples",
+    "unit": "5 kg",
+    "mrp": 285,
+    "price": 270,
+    "loyalty": false
+  },
+  {
+    "id": "groc-2",
+    "name": "Daawat Biryani Basmati Rice",
+    "category": "Daily Groceries & Staples",
+    "unit": "5 kg",
+    "mrp": 620,
+    "price": 585,
+    "loyalty": true
+  },
+  {
+    "id": "groc-3",
+    "name": "Fortune Sunflower Oil",
+    "category": "Daily Groceries & Staples",
+    "unit": "1 L",
+    "mrp": 155,
+    "price": 145,
+    "loyalty": false
+  },
+  {
+    "id": "groc-4",
+    "name": "Tata Tea Premium",
+    "category": "Daily Groceries & Staples",
+    "unit": "500 g",
+    "mrp": 285,
+    "price": 268,
+    "loyalty": true
+  },
+  {
+    "id": "groc-5",
+    "name": "Boost Energy Drink",
+    "category": "Daily Groceries & Staples",
+    "unit": "500 g",
+    "mrp": 310,
+    "price": 292,
+    "loyalty": true
+  },
+  {
+    "id": "groc-6",
+    "name": "Maggi 2-Minute Noodles",
+    "category": "Daily Groceries & Staples",
+    "unit": "Pack of 12",
+    "mrp": 168,
+    "price": 150,
+    "loyalty": true
+  },
+  {
+    "id": "groc-7",
+    "name": "Parle-G",
+    "category": "Daily Groceries & Staples",
+    "unit": "800 g",
+    "mrp": 100,
+    "price": 92,
+    "loyalty": true
+  },
+  {
+    "id": "groc-8",
+    "name": "Britannia Good Day Cookies",
+    "category": "Daily Groceries & Staples",
+    "unit": "600 g",
+    "mrp": 150,
+    "price": 138,
+    "loyalty": true
+  },
+  {
+    "id": "groc-9",
+    "name": "Tata Salt",
+    "category": "Daily Groceries & Staples",
+    "unit": "1 kg",
+    "mrp": 30,
+    "price": 28,
+    "loyalty": true
+  },
+  {
+    "id": "groc-10",
+    "name": "Toor Dal",
+    "category": "Daily Groceries & Staples",
+    "unit": "1 kg",
+    "mrp": 185,
+    "price": 172,
+    "loyalty": true
+  }
+]

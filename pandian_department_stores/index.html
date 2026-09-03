@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pandian Department Stores - Gummidipoondi By Pass Road. Grocery, dairy, masalas, beverages, stationery and home care.">
+  <title>Pandian Department Stores | Gummidipoondi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div>பாண்டியன் டிபார்ட்மென்ட் ஸ்டோர்ஸ்</div>
+    <div class="top-links"><span>Open Daily · 7:00 AM – 10:30 PM</span><a href="tel:+918939089397">☎ +91 8939089397</a></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Pandian Department Stores home">
+      <img src="assets/logo.webp" alt="Pandian Department Stores — Your Trust, Our Service">
+    </a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#rewards">Rewards</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="cartBtn">🛒 <span>Cart</span> <b id="cartCount">0</b></button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/frontimage.webp" alt="Pandian Department Stores storefront at night">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <span class="eyebrow">Gummidipoondi's trusted neighbourhood store</span>
+        <h1>Everything your home needs, <em>under one roof.</em></h1>
+        <p>Groceries, dairy, masalas, beverages, stationery and cleaning essentials — with friendly service and everyday value.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#shop">Shop the catalogue</a>
+          <a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=Pandian+Department+Stores+Gummidipoondi" target="_blank" rel="noopener">📍 Open in Google Maps</a>
+        </div>
+        <div class="hero-trust">
+          <div><strong>₹1,500+</strong><span>Free delivery</span></div>
+          <div><strong>1%</strong><span>Loyalty points</span></div>
+          <div><strong>7 AM–10:30 PM</strong><span>Open daily</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer-wrap">
+      <img src="assets/Offer.webp" alt="Pandian Department Stores loyalty rewards and free delivery offer">
+      <div class="offer-copy">
+        <span class="eyebrow">Shop more · Earn more</span>
+        <h2>Loyalty rewards for every qualifying purchase.</h2>
+        <p>Shop ₹500 or more, earn 1% loyalty points on eligible bills, accumulate points and redeem at 100 points.</p>
+        <a class="btn btn-dark" href="#rewards">See how rewards work →</a>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Product catalogue</span>
+          <h2>Shop everyday essentials</h2>
+          <p id="catalogStatus">Loading catalogue…</p>
+        </div>
+        <div class="manager-actions">
+          <button class="btn btn-outline" id="managerBtn">⚙ JSON Catalog Manager</button>
+        </div>
+      </div>
+
+      <div class="shop-toolbar">
+        <div class="searchbox">⌕ <input id="searchInput" type="search" placeholder="Search products…" aria-label="Search products"></div>
+        <select id="categorySelect" aria-label="Filter by category"><option value="all">All categories</option></select>
+        <select id="sortSelect" aria-label="Sort products">
+          <option value="featured">Featured</option>
+          <option value="price-low">Price: Low to high</option>
+          <option value="price-high">Price: High to low</option>
+          <option value="saving">Best savings</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </div>
+
+      <div class="chips" id="categoryChips"></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="rewards section" id="rewards">
+      <div class="section-head centered">
+        <span class="eyebrow">Pandian Loyalty Rewards</span>
+        <h2>Shop more. Earn more. Get rewarded.</h2>
+        <p>Simple rewards designed for regular family shopping.</p>
+      </div>
+      <div class="reward-steps">
+        <div class="step"><span>01</span><div class="step-icon">🛒</div><h3>Shop ₹500+</h3><p>Qualifying bills start at ₹500.</p></div>
+        <div class="step"><span>02</span><div class="step-icon">%</div><h3>Earn 1%</h3><p>Earn 1% loyalty points on eligible bill amount.</p></div>
+        <div class="step"><span>03</span><div class="step-icon">↗</div><h3>Accumulate</h3><p>Keep collecting points with qualifying purchases.</p></div>
+        <div class="step"><span>04</span><div class="step-icon">🎁</div><h3>Redeem at 100</h3><p>Redeem exciting rewards after collecting 100 points.</p></div>
+      </div>
+      <div class="notice">Please note: loyalty points are not added for <strong>atta, milk & dairy products, and cooking oil.</strong></div>
+    </section>
+
+    <section class="calculator section" id="delivery">
+      <div class="calc-card">
+        <div>
+          <span class="eyebrow">Quick calculator</span>
+          <h2>Loyalty & delivery calculator</h2>
+          <p>Estimate your points and see whether your order qualifies for free home delivery.</p>
+        </div>
+        <div class="calc-form">
+          <label>Bill amount (₹)<input id="billAmount" type="number" min="0" step="1" value="1500"></label>
+          <div class="calc-result"><span>Estimated loyalty points</span><strong id="pointsResult">15</strong><small>1 point per ₹100 of eligible bill</small></div>
+          <div class="calc-result"><span>Delivery</span><strong id="deliveryResult">FREE</strong><small id="deliveryNote">Minimum order value ₹1,500</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div>
+        <span class="eyebrow">Visit us</span>
+        <h2>Pandian Department Stores</h2>
+        <p class="tamil">பாண்டியன் டிபார்ட்மென்ட் ஸ்டோர்ஸ்</p>
+        <p>Gummidipoondi By Pass Road, Gummidipoondi</p>
+        <p><strong>Daily:</strong> 7:00 AM – 10:30 PM</p>
+      </div>
+      <div class="contact-cards">
+        <a href="tel:+918939089397"><span>☎</span><strong>Call us</strong><small>+91 8939089397</small></a>
+        <a href="https://wa.me/918939089397" target="_blank" rel="noopener"><span>◉</span><strong>WhatsApp</strong><small>Order directly</small></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Pandian+Department+Stores+Gummidipoondi" target="_blank" rel="noopener"><span>⌖</span><strong>Directions</strong><small>Google Maps</small></a>
+        <a href="mailto:?subject=Pandian Department Stores enquiry"><span>✉</span><strong>Email</strong><small>Open your mail app</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><img src="assets/logo.webp" alt="Pandian Department Stores"></div>
+    <p>Your Trust, Our Service · Gummidipoondi</p>
+    <p class="small">Product prices shown are catalogue/demo prices and may vary at the store.</p>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="drawer-head"><div><span class="eyebrow">Your order</span><h2>Shopping cart</h2></div><button id="closeCart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-summary">
+      <div><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+      <div><span>You save</span><strong class="saving" id="cartSaving">₹0</strong></div>
+      <div class="total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+      <div class="customer-form">
+        <input id="customerName" placeholder="Your name (optional)">
+        <input id="customerAddress" placeholder="Delivery address (optional)">
+      </div>
+      <button class="btn btn-whatsapp" id="whatsappBtn">💬 Order on WhatsApp</button>
+      <p class="micro">Free home delivery for orders ₹1,500+ in Gummidipoondi.</p>
+    </div>
+  </aside>
+
+  <div class="modal-backdrop" id="managerBackdrop">
+    <section class="manager-modal">
+      <div class="drawer-head"><div><span class="eyebrow">Local catalogue</span><h2>JSON Catalog Manager</h2></div><button id="closeManager">×</button></div>
+      <div class="manager-tabs"><button class="active" data-tab="table">Products</button><button data-tab="json">JSON</button><button data-tab="add">Add item</button></div>
+      <div class="manager-panel active" id="managerTable">
+        <p class="micro">Edit prices directly below. Changes are saved in your browser and can be exported as <code>products.json</code>.</p>
+        <div class="table-wrap"><table><thead><tr><th>Product</th><th>Category</th><th>MRP</th><th>Sell price</th><th>Loyalty</th><th></th></tr></thead><tbody id="managerRows"></tbody></table></div>
+      </div>
+      <div class="manager-panel" id="managerJson">
+        <textarea id="jsonEditor" spellcheck="false"></textarea>
+        <div class="manager-footer"><button class="btn btn-outline" id="copyJson">Copy JSON</button><button class="btn btn-dark" id="saveJson">Apply JSON</button><button class="btn btn-primary" id="downloadJson">Download products.json</button></div>
+      </div>
+      <div class="manager-panel" id="managerAdd">
+        <form id="addForm" class="add-form">
+          <input name="name" placeholder="Product name" required>
+          <input name="category" placeholder="Category" required>
+          <input name="unit" placeholder="Unit e.g. 500 g" required>
+          <input name="mrp" type="number" min="0" step="1" placeholder="MRP" required>
+          <input name="price" type="number" min="0" step="1" placeholder="Our sell price" required>
+          <label class="check"><input name="loyalty" type="checkbox" checked> Eligible for loyalty points</label>
+          <button class="btn btn-primary" type="submit">Add product</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
